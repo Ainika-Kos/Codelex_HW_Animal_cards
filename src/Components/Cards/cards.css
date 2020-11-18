@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+    width: 100%;
+    min-height: 230px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card__image-wrapper {
+    width: 100%;
+    position: relative;
+    padding-top: 90%;
+    border-radius: 8px;
+  }
+  
+.card__image {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card__description-wrapper {
+  margin: 10px;
+}
+
+.card__description {
+  font-size: 12px;
+  text-align: justify;
+}
+
+button {
+  background-color: rgba(255, 182, 193, 1);
+  color: maroon;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 8px;
+  min-width: 50px;
+  transition: background-color 0.2s;
+  border: none;
+}
+
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 182, 193, 0.5);
+}
