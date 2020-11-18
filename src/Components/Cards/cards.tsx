@@ -4,15 +4,14 @@ import '../Cards/cards.css';
 export type CardsType = {
     img: string;
     description: string;
-    name: string
+    name: string;
 }
 
-export const Cards: FC<CardsType> = ({ img, description, name }) => {
+export const Cards: FC<CardsType> = ({ img, description, name}) => {
     
     const [showDescription, setShowDescription] = useState(false);
 
     return (
-
         <div className="card">
             { !showDescription ? 
             (<div className="card__image-wrapper">
