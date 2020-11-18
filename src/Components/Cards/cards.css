@@ -4,9 +4,11 @@
 
 .card {
     width: 100%;
+    max-width: 230px;
     min-height: 230px;
     border: 1px solid lightgray;
     border-radius: 8px;
+    margin: 5px;
 }
 
 .card:hover {

@@ -85,18 +85,14 @@ function AnimalsApp() {
           <div className="card-section">
           {filtredAnimals.filter(({isActive}) => isActive === true).map(({ id, name, category, description, img, isActive }) => {
               return (
-                <Grid>
-                  <Row>
-                    <Col xs={12}>
+                
                       <Cards
                         key={id}
                         img={img}
                         description={description}
                         name={name}
                       />
-                    </Col>
-                  </Row>
-                </Grid>
+                    
               )
             })}
           </div>

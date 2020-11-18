@@ -58,12 +58,5 @@ export const Animals: AnimalsType[] = [
         description: 'The wild boar, also known as the "wild swine", "common wild pig", or simply "wild pig", is a suid native to much of Eurasia and North Africa. According to statistical data from 2002, there are about 30,400 wild boars in Latvia. Height: 55-120 cm, Tail length: 15-40 cm, Mass: 75-100 kg (male), 60-80 kg (female). Lifespan: 10-12 years',
         img: 'https://pyxis.nymag.com/v1/imgs/1d9/d03/a8708fcdfd5541fc04f0619c3d1032ffc1-30-wild-boar-europe.rsquare.w700.jpg',
     },
-    // {
-    //     id: 6,
-    //     isActive: false,
-    //     name: 'Boar',
-    //     category: 'Boar',
-    //     description: 'The wild boar, also known as the "wild swine", "common wild pig", or simply "wild pig", is a suid native to much of Eurasia and North Africa. According to statistical data from 2002, there are about 30,400 wild boars in Latvia. Height: 55-120 cm, Tail length: 15-40 cm, Mass: 75-100 kg (male), 60-80 kg (female). Lifespan: 10-12 years',
-    //     img: 'https://pyxis.nymag.com/v1/imgs/1d9/d03/a8708fcdfd5541fc04f0619c3d1032ffc1-30-wild-boar-europe.rsquare.w700.jpg',
-    // },
+
 ]
