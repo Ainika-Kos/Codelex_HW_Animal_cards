@@ -10,16 +10,6 @@ function AnimalsApp() {
 
   const [filtredAnimals, setFiltredAnimals] = useState<AnimalsType[]>(Animals);
 
-  // const [showCard, setShowCard] = useState(false);
-
-  // let newArr = filtredAnimals;
-
-  // if (showCard){
-  //   newArr = [...filtredAnimals].filter(({isActive}) =>{
-  //     return isActive;
-  //   });
-  // }
-
   const activeChangeHandler = (text: string) => {
     const index = filtredAnimals.findIndex((item) => item.category === text);
     const newAnimals = filtredAnimals.map((animal, i) => {
@@ -85,14 +75,12 @@ function AnimalsApp() {
           <div className="card-section">
           {filtredAnimals.filter(({isActive}) => isActive === true).map(({ id, name, category, description, img, isActive }) => {
               return (
-                
-                      <Cards
-                        key={id}
-                        img={img}
-                        description={description}
-                        name={name}
-                      />
-                    
+                <Cards
+                   key={id}
+                   img={img}
+                   description={description}
+                   name={name}
+                />   
               )
             })}
           </div>
